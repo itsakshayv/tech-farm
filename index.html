@@ -1,401 +1,175 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Mate+SC&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    #rcorners2 {
+      border-radius: 25px;
+      border: 2px solid white;
+      padding: 30px;
+      width: 600px;
+      height: 60px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
-  <!-- Webpage Title -->
-  <title>Tech Farm</title>
 
-  <!-- Styles -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="css/swiper.css" rel="stylesheet">
-  <link href="css/magnific-popup.css" rel="stylesheet">
-  <link href="css/styles.css" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="https://github.com/itsakshayv/tech-farm/blob/main/images/logo.jpg">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous"
-    referrerpolicy="no-referrer" />
+    p {
+      font-size: 0.875em;
+      /* 14px/16=0.875em */
+      color: red;
+    }
 
-  <!-- Favicon  -->
+    a {
+      color: white;
+      text-decoration: none;
+    }
 
+    body {
+      margin: 0;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: f1f1f1;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      opacity: 0.7;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #343f5c;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    .navbar a:hover {
+      background: #ddd;
+      color: black;
+    }
+
+    .main {
+      padding: 16px;
+      margin-top: 30px;
+      height: 1500px;
+      /* Used in this example to enable scrolling */
+    }
+
+
+    h1 {
+      display: block;
+      margin-left: %;
+      margin-right: 100%;
+      border-radius: 50%;
+      font-size: 25px;
+      color: #FFD365;
+    }
+
+    h2 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 50%;
+      font-size: 20px;
+      color: red;
+    }
+
+    h3 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 50%;
+      font-size: 30px;
+    }
+
+    h4 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 50%;
+      font-size: 35px;
+
+    }
+
+
+    body {
+      background-color:  #019267;
+      color: white;
+      font-family: 'Mate SC', serif;
+      font-family: 'Nanum Gothic Coding', monospace;
+}
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    #section1 {
+      height: 750px;
+      background-color: #019267;
+
+
+      color: white;
+      font-family: 'Mate SC', serif;
+      font-family: 'Nanum Gothic Coding', monospace;
+    }
+
+    #section2 {
+      height: 500px;
+      background-color: #019267;
+      font-size: 20px;
+      text-align: center;
+      color: white;
+      font-family: 'Mate SC', serif;
+      font-family: 'Nanum Gothic Coding', monospace;
+    }
+  </style>
 </head>
 
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-  <div class="container">
-
-    <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img class="lgh" src="https://github.com/itsakshayv/tech-farm/blob/main/images/logo.jpg?raw=true" alt="" width="60" height="60" class="d-inline-block align-text-top"></a>
-      </div>
-      <ul class="navbar-nav ml-auto">
-
-        <li class="nav-item">
-          <a class="nav-link page-scroll" href="https://itsakshayv-github-io.translate.goog/tech-farm/?_x_tr_sl=en&_x_tr_tl=hi&_x_tr_hl=en&_x_tr_pto=wapp">Language-HIN</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link page-scroll" href="https://itsakshayv.github.io/agri-pro/login.html">Login</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link page-scroll" href="https://itsakshayv.github.io/agri-pro/sign.html">Signup</a>
-        </li>
-      </ul>
-
-    </div> <!-- end of navbar-collapse -->
-  </div> <!-- end of container -->
-</nav> <!-- end of navbar -->
-<!-- end of navigation -->
-
-
-<!-- Header -->
-<div class="header">
-  <div class="ocean">
-    <div class="wave"></div>
-    <div class="wave"></div>
+<body>
+  <div class="navbar">
+    <a href="https://itsakshayv.github.io/">Back</a>
   </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="text-container">
-          <h1 class="h1-large">Tech Farm </h1>
-          <h2 class="h2-large">AI Powered Platform - One Solution For Farming</h2>
-          <p class="p-large"> Our idea is to create a website that provides the information about farming techniques of different crops
-            It reminds the farmer at the right time to sow, add manure and get the yield in the best way
-          </p>
-          <a class="btn-solid-lg page-scroll" href="#features">Discover</a>
-        </div> <!-- end of text-container -->
-      </div> <!-- end of col -->
-      <div class="col-lg-6">
-        <div class="image-container">
-          <img class="img-fluid" src="images/header-gem.jpg" alt="alternative">
-        </div> <!-- end of image-container -->
-      </div> <!-- end of col -->
-    </div> <!-- end of row -->
-  </div> <!-- end of container -->
-</div> <!-- end of header -->
+  <div class="main" id="section1">
+    <div class="main" id="section2">
+      <h4>Kisan News</h4>
+      <h1 id="rcorners2">Vegetable Seed Availability as on 30.08.2022 at TNAU<a href="https://agritech.tnau.ac.in/pdf/seeds%20availablity%2030.8.22.pdf">
+          <h2>- Read Now</h2>
+        </a></h1>
+        <h1 id="rcorners2">Seed Availability - Seed Stock Position as on 02.08.2022<a href="https://agritech.tnau.ac.in/pdf/All%20Seed%20stock%20position%20-%20July%202022%20-%20Tamil%20and%20English.pdf ">
+            <h2>- Read Now</h2>
+          </a></h1>
+          <h1 id="rcorners2">Uzhavarin Valarum Velanmai<a href="https://agritech.tnau.ac.in/tnau_publish_valarum%20velanmai.html">
+              <h2>- Read Now</h2>
+            </a></h1>
+            <h1 id="rcorners2">Pest and Disease Surveillance andForecast Report<a href="http://www.agritech.tnau.ac.in/crop_protection/surv_fc_reports2022.html">
+                <h2>- Read Now</h2>
+              </a></h1>
+    </div>
+    </ul>
+  </div>
+  <div id="google_translate_element"></div>
 
+  <script type="text/javascript">
+      function googleTranslateElementInit() {
+          new google.translate.TranslateElement(
+              {pageLanguage: 'en'},
+              'google_translate_element'
+          );
+      }
+  </script>
 
-<!-- Statement -->
-<div id="statement" class="basic-1">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="text-container">
-          <h3>A single platform that Manage your farm Effectively</h3>
-          <p class="p-large"> It reminds the farmer at the right time to sow, add manure and get the yield in the best way
-            Provides information in various languages for easy understanding of the farmers
-            The total expense including the seed cost , fertilizer, labour, chemicals etc. will be calculated even before the sow
-            Events and Subsidies provided to farmers shall be provided
-          </p>
-
-        </div> <!-- end of text-container -->
-      </div> <!-- end of col -->
-    </div> <!-- end of row -->
-  </div> <!-- end of container -->
-</div> <!-- end of basic-1 -->
-<!-- end of statement -->
-
-
-<!-- Details 1 -->
-<div id="details" class="basic-2">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-xl-7">
-        <div class="image-container">
-          <img class="img-fluid" src="images/details-1.jpg" alt="alternative">
-        </div> <!-- end of image-container -->
-      </div> <!-- end of col -->
-      <div class="col-lg-6 col-xl-5">
-        <div class="text-container">
-          <h2>Systematic Farming</h2>
-          <p>Systematic agriculture refers to any type of agriculture that is done purposefully and orderly. You could argue that agriculture is, by its definition, systematic. Agriculture is the production of crops or livestock for food or other
-            products, such as eggs or wool.</p>
-
-        </div> <!-- end of text-container -->
-      </div> <!-- end of col -->
-    </div> <!-- end of row -->
-  </div> <!-- end of container -->
-</div> <!-- end of basic-2 -->
-<!-- end of details 1 -->
-
-
-<!-- Details Lightbox -->
-<!-- Lightbox -->
-<div id="details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
-  <div class="row">
-    <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-    <div class="col-lg-8">
-      <div class="image-container">
-        <img class="img-fluid" src="images/details-lightbox.jpg" alt="alternative">
-      </div> <!-- end of image-container -->
-    </div> <!-- end of col -->
-    <div class="col-lg-4">
-      <h3>Goals Setting</h3>
-      <hr>
-      <p>The app can easily help you track your personal development evolution if you take the time to set it up.</p>
-      <h4>User Feedback</h4>
-      <p>This is a great app which can help you save time and make your live easier. And it will help improve your productivity.</p>
-      <ul class="list-unstyled li-space-lg">
-        <li class="media">
-          <i class="fas fa-check"></i>
-          <div class="media-body">Splash screen panel</div>
-        </li>
-        <li class="media">
-          <i class="fas fa-check"></i>
-          <div class="media-body">Statistics graph report</div>
-        </li>
-        <li class="media">
-          <i class="fas fa-check"></i>
-          <div class="media-body">Events calendar layout</div>
-        </li>
-        <li class="media">
-          <i class="fas fa-check"></i>
-          <div class="media-body">Location details screen</div>
-        </li>
-        <li class="media">
-          <i class="fas fa-check"></i>
-          <div class="media-body">Onboarding steps interface</div>
-        </li>
-      </ul>
-      <a class="btn-solid-reg mfp-close page-scroll" href="#contact">Contact Us</a> <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>
-    </div> <!-- end of col -->
-  </div> <!-- end of row -->
-</div> <!-- end of lightbox-basic -->
-<!-- end of lightbox -->
-<!-- end of details lightbox -->
-
-
-<!-- Details 2 -->
-<div class="basic-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-xl-5">
-        <div class="text-container">
-          <h2>Agriculture in Uttarakhand</h2>
-          <p>Agricultural practices are the main stay of the people of Uttranchal. Out of the total population, more than 75% of people are engaged either with the main occupation of agriculture or its allied practices, dominated by traditional
-            subsistence cereal farming. Among them, the main crops are rice, wheat, millet, barley, all types of pulses, all types of oilseeds and almost all types of fruits.</p>
-
-        </div> <!-- end of text-container -->
-      </div> <!-- end of col -->
-      <div class="col-lg-6 col-xl-7">
-        <div class="image-container">
-          <img class="img-fluid" src="images/details-2.jpg" alt="alternative">
-        </div> <!-- end of image-container -->
-      </div> <!-- end of col -->
-    </div> <!-- end of row -->
-  </div> <!-- end of container -->
-</div> <!-- end of basic-3 -->
-<!-- end of details 2 -->
-
-
-<!-- Features -->
-<div id="features" class="basic-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="text-box bg-gray">
-          <i class="fas fa-language"></i>
-          <h4>Local language</h4>
-          </h4>
-          <p>The user chooses the convenient language,Our website Provides information in various languages for easy understanding of the farmers
-
-          </p>
-        </div> <!-- end of text-box -->
-      </div> <!-- end of col -->
-      <div class="col-lg-4">
-        <div class="text-box bg-gray">
-          <i class="fas fa-tag"></i>
-
-          <h4>Market Price</h4>
-          <p>The best possible price shall be posted for the crop on the website. After yield, the best possible price available across India is notified so that they are more profitable
-          </p>
-        </div> <!-- end of text-box -->
-      </div> <!-- end of col -->
-      <div class="col-lg-4">
-        <div class="text-box bg-gray">
-          <i class="fas fa-calculator"></i>
-          <h4>Expense Calculator</h4>
-          <p> The total expense including the seed cost , fertilizer, labour, chemicals etc. will be calculated even before the sow.After yield, the best possible price available across India is notified so that they are more profitable
-
-          </p>
-        </div> <!-- end of text-box -->
-      </div> <!-- end of col -->
-    </div> <!-- end of row -->
-    <div id="features" class="basic-4">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="text-box bg-gray">
-              <i class="fas fa-wallet"></i>
-              <h4>Crop Insurance</h4>
-              </h4>
-              <p>Crop Insurance is a comprehensive yield-based policy meant to compensate farmers' losses arising due to production problems. It covers pre-sowing and post-harvest losses due to cyclonic rains and rainfall deficit
-
-              </p>
-            </div> <!-- end of text-box -->
-          </div> <!-- end of col -->
-          <div class="col-lg-4">
-            <div class="text-box bg-gray">
-              <i class="fas fa-bug"></i>
-
-              <h4>Pesticide Control </h4>
-              <p>Substitute non-resistant plants with pest-resistant ones. Reduce the need for pesticides by using substitutes such as biological control of insects or natural predators which are harmless to the crop. In cases of limited pest
-                infestation, traps or manual removal could substitute for pesticides
-              </p>
-            </div> <!-- end of text-box -->
-          </div> <!-- end of col -->
-          <div class="col-lg-4">
-            <div class="text-box bg-gray">
-              <i class="fas fa-question"></i>
-              <h4>Agro Advisor</h4>
-              <p> The role of Agri Advisor will be to answer farmer queries over the call, provide right farming decision and solution and guide them to select the right product and driving sales
-
-              </p>
-            </div> <!-- end of text-box -->
-          </div> <!-- end of col -->
-        </div> <!-- end of row -->
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="text-box bg-gray">
-              <i class="fas fa-cloud-sun-rain"></i>
-              <h4>Live Weather</h4>
-              <p>Real-Time Weather Forecasts -can save water and money by not irrigating when rain is in the forecast</p>
-            </div> <!-- end of text-box -->
-          </div> <!-- end of col -->
-          <div class="col-lg-4">
-            <div class="text-box bg-gray">
-              <i class="fas fa-brain"></i>
-              <h4>Smart AI Recommendation</h4>
-              <p>Our Smart AI Recommends to what to crop,when to Crop by detecting the Location and Weather condition and The crops harvested near by them</p>
-            </div> <!-- end of text-box -->
-          </div> <!-- end of col -->
-          <div class="col-lg-4">
-            <div class="text-box bg-gray">
-              <i class="fas fa-newspaper"></i>
-              <h4>Kisan News</h4>
-              <p>News updates regarding farmer welfare are provided
-                . Events and Subsidies provided to farmers shall be provided
-              </p>
-            </div> <!-- end of text-box -->
-          </div> <!-- end of col -->
-        </div> <!-- end of row -->
-      </div> <!-- end of container -->
-    </div> <!-- end of basic-4 -->
-    <!-- end of features -->
-
-
-
-    <!-- Invitation -->
-    <div class="basic-6">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="text-container bg-gray">
-              <h4>“To forget how to dig the earth and tend the soil is to forget ourselves “ - Mahatma Gandhi</h4>
-
-            </div> <!-- end of text-container -->
-          </div> <!-- end of col -->
-        </div> <!-- end of row -->
-      </div> <!-- end of container -->
-    </div> <!-- end of basic-6 -->
-    <!-- end of invitation -->
-
-
-
-
-    <!-- Footer -->
-    <div class="footer bg-gray">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="social-container">
-              <span class="fa-stack">
-                <a href="#your-link">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x"></i>
-                </a>
-              </span>
-              <span class="fa-stack">
-                <a href="#your-link">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x"></i>
-                </a>
-              </span>
-              <span class="fa-stack">
-                <a href="#your-link">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-pinterest-p fa-stack-1x"></i>
-                </a>
-              </span>
-              <span class="fa-stack">
-                <a href="#your-link">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-instagram fa-stack-1x"></i>
-                </a>
-              </span>
-              <span class="fa-stack">
-                <a href="#your-link">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-youtube fa-stack-1x"></i>
-                </a>
-              </span>
-            </div> <!-- end of social-container -->
-          </div> <!-- end of col -->
-        </div> <!-- end of row -->
-      </div> <!-- end of container -->
-    </div> <!-- end of footer -->
-    <!-- end of footer -->
-
-
-    <!-- Copyright -->
-    <div class="copyright bg-gray">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <p class="p-small">Copyright © <a class="no-line" href="#your-link">Techfarm</a></p>
-          </div> <!-- end of col -->
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <p class="p-small">Distributed by: <a class="no-line" href="https://themewagon.com/">techfarm</a></p>
-          </div> <!-- end of col -->
-        </div>
-        <!-- enf of row -->
-      </div> <!-- end of container -->
-    </div> <!-- end of copyright -->
-    <!-- end of copyright -->
-
-
-    <!-- Scripts -->
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-      var Tawk_API = Tawk_API || {},
-        Tawk_LoadStart = new Date();
-      (function() {
-        var s1 = document.createElement("script"),
-          s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = 'https://embed.tawk.to/62375246a34c2456412bf39a/1fuk1ip2t';
-        s1.charset = 'UTF-8';
-        s1.setAttribute('crossorigin', '*');
-        s0.parentNode.insertBefore(s1, s0);
-      })();
-    </script>
-    <!--End of Tawk.to Script-->
-    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
-    </body>
+  <script type="text/javascript" src=
+"https://translate.google.com/translate_a/element.js?
+      cb=googleTranslateElementInit">
+  </script>
+</body>
 
 </html>
